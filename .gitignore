@@ -1,2 +1,12 @@
 *.idea/
-
+/node_modules/
+*.build/
+*.gradle/
+/src/backend/gradle/
+/src/frontend/.gitignore
+/src/backend/.gitignore
+*.gitignore
+/src/backend/build.gradle
+/src/backend/gradlew
+/src/backend/gradlew.bat
+/src/backend/settings.gradle

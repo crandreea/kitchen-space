@@ -1,0 +1,177 @@
+.header {
+    position: fixed;
+    top: 0; /* Positions the header at the top of the page */
+    /* Ensures the header spans the full width */
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);*/
+    border-bottom: #333333 2px solid;
+    background-color: white;
+    width: 90%;
+    /*margin-top: 1%;*/
+    padding-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 80px;
+    min-width: 230px;
+}
+
+.logo{
+    height: 180px;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: black 2px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0 0 0 25px;
+    gap: 16px;
+    width: 30%;
+    min-width: 190px;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0 25px 0 0;
+    width: 30%;
+}
+
+.nav-item {
+    position: relative;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav-item-signin{
+    position: relative;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    font-weight: bold;
+}
+
+.nav-item-signin:hover{
+    font-weight: 800;
+    color: #ff864f;
+}
+
+.menu-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 0 25px 0 0;
+    color: #333;
+}
+
+.menu-button:hover {
+    color: #ff864f;
+}
+
+@media screen and (max-width: 900px) {
+    .menu-button {
+        display: flex;
+        order: 1;
+        width: 20%;
+
+    }
+
+    .nav-left {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+        padding: 0;
+        margin-top: 250px;
+    }
+
+    .nav-right {
+        width: 20%;
+    }
+    .nav-left.open {
+        display: flex;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-item:last-child {
+        border-bottom: 2px solid #eee;
+    }
+
+    .nav-item-signin{
+        position: relative;
+        text-align: center;
+        font-family: Georgia, serif;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+
+    .nav-item-signin:hover{
+        font-weight: 800;
+        color: #ff864f;
+        /*min-width: 63px;*/
+    }
+
+    .logo-container {
+        order: 2;
+        width: 60%;
+    }
+
+    .nav-right {
+        order: 3;
+    }
+}
