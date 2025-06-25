@@ -1,0 +1,117 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/0e9aa96b-c4e6-429e-83bb-7b4a3f2c08dc.jpg",
+      "PackagePath": "staticwebassets/images/0e9aa96b-c4e6-429e-83bb-7b4a3f2c08dc.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/1f31dc78-bd45-49c6-ac35-33f6cd406aa4_sushi.jpg",
+      "PackagePath": "staticwebassets/images/1f31dc78-bd45-49c6-ac35-33f6cd406aa4_sushi.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/2789d89c-8e12-4ca2-93e7-7c6d9af52578.jpg",
+      "PackagePath": "staticwebassets/images/2789d89c-8e12-4ca2-93e7-7c6d9af52578.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/39eb12e8-c4be-446e-b09e-8598714ad112.jpg",
+      "PackagePath": "staticwebassets/images/39eb12e8-c4be-446e-b09e-8598714ad112.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/4c67dcd7-5855-444a-abe5-f995bce7ae65.jpg",
+      "PackagePath": "staticwebassets/images/4c67dcd7-5855-444a-abe5-f995bce7ae65.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/5e50d7ed-aed8-4cc9-84c7-893b701945d7.jpg",
+      "PackagePath": "staticwebassets/images/5e50d7ed-aed8-4cc9-84c7-893b701945d7.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/68134d27-ab78-446e-8ef7-a0ba2aa8ba9c.jpg",
+      "PackagePath": "staticwebassets/images/68134d27-ab78-446e-8ef7-a0ba2aa8ba9c.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/7673216d-c521-42e4-b9aa-bfd10a6e574f.jpeg",
+      "PackagePath": "staticwebassets/images/7673216d-c521-42e4-b9aa-bfd10a6e574f.jpeg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/8e1cef2a-0445-4ebd-bac0-848a1bc1df02.jpg",
+      "PackagePath": "staticwebassets/images/8e1cef2a-0445-4ebd-bac0-848a1bc1df02.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/a17b5af8-6625-4f53-b3d0-3b04780b2257.jpg",
+      "PackagePath": "staticwebassets/images/a17b5af8-6625-4f53-b3d0-3b04780b2257.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/baked_salmon.webp",
+      "PackagePath": "staticwebassets/images/baked_salmon.webp"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/beef_stroganoff.jpg",
+      "PackagePath": "staticwebassets/images/beef_stroganoff.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/c77f511f-dd5f-4396-8f4a-b8bfab3eab17.jpg",
+      "PackagePath": "staticwebassets/images/c77f511f-dd5f-4396-8f4a-b8bfab3eab17.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/carbonara.jpeg",
+      "PackagePath": "staticwebassets/images/carbonara.jpeg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/cc96a096-0cbc-411c-a980-abdd3eab9666_fructe.png",
+      "PackagePath": "staticwebassets/images/cc96a096-0cbc-411c-a980-abdd3eab9666_fructe.png"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/chicken_fajitas.jpg",
+      "PackagePath": "staticwebassets/images/chicken_fajitas.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/chicken_tikka.jpeg",
+      "PackagePath": "staticwebassets/images/chicken_tikka.jpeg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/cookies.jpg",
+      "PackagePath": "staticwebassets/images/cookies.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/d31bba9d-f9ca-42d1-afc8-ed3004a6c9e3_sushi.jpg",
+      "PackagePath": "staticwebassets/images/d31bba9d-f9ca-42d1-afc8-ed3004a6c9e3_sushi.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/d80366dc-b53e-4b0a-83ba-7ba751d57c05_sushi.jpg",
+      "PackagePath": "staticwebassets/images/d80366dc-b53e-4b0a-83ba-7ba751d57c05_sushi.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/greek_salad.jpg",
+      "PackagePath": "staticwebassets/images/greek_salad.jpg"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/pancakes.webp",
+      "PackagePath": "staticwebassets/images/pancakes.webp"
+    },
+    {
+      "Id": "/Users/croitoruandreea/Desktop/projects/kitchen-space/src/backend/RecipeManager.API/wwwroot/images/tomato_soup.jpg",
+      "PackagePath": "staticwebassets/images/tomato_soup.jpg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.RecipeManager.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.RecipeManager.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.RecipeManager.API.props",
+      "PackagePath": "build\\RecipeManager.API.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.RecipeManager.API.props",
+      "PackagePath": "buildMultiTargeting\\RecipeManager.API.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.RecipeManager.API.props",
+      "PackagePath": "buildTransitive\\RecipeManager.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
