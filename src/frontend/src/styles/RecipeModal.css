@@ -1,0 +1,154 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.recipe-modal {
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 700px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.modal-header {
+    margin-bottom: 20px;
+}
+
+.modal-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.modal-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.recipe-meta {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meta-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.meta-value {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.recipe-section {
+    margin-top: 25px;
+}
+
+.recipe-section h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+}
+
+.ingredients-list,
+.steps-list {
+    padding-left: 25px;
+    margin: 0;
+}
+
+.ingredients-list li,
+.steps-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.steps-list li {
+    padding-left: 5px;
+}
+
+.stars {
+    display: flex;
+}
+
+.star {
+    color: #ffc107;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.star.empty {
+    color: #e0e0e0;
+}
+
+.star.half {
+    position: relative;
+    color: #e0e0e0;
+}
+
+.star.half:before {
+    content: "★";
+    position: absolute;
+    color: #ffc107;
+    width: 50%;
+    overflow: hidden;
+}
+
+.reviews {
+    font-size: 14px;
+    color: #666;
+}

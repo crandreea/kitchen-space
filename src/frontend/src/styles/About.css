@@ -113,7 +113,6 @@ section {
     height: 100%;
 }
 
-/* Features Section */
 .features-grid {
     display: grid;
     grid-template-columns: 1fr;

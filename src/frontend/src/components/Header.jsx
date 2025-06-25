@@ -1,12 +1,20 @@
 import React, {useState} from 'react';
-import {Link} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import KitchenSpaceLogo from '../data/logo.png';
 import '../styles/Header.css';
 
 const Header = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const navigate = useNavigate();
 
+    const handleLogout = () => {
+        localStorage.removeItem("authToken");
+        localStorage.removeItem("userId"); 
+
+        navigate('/'); 
+        window.location.reload();
+    };
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
@@ -30,17 +38,29 @@ const Header = () => {
                         <Link to={'/about'} className={'link'}>About</Link>
                     </li>
                     <li className={"nav-item"}>
-                        <Link to={'/about'} className={'link'}>Recipes</Link>
+                        <Link to={'/recipes'} className={'link'}>Recipes</Link>
                     </li>
                 </ul>
                 <div className={"logo-container"}>
                     <Link to={'/'}><img src={KitchenSpaceLogo} alt="KitchenSpace Logo" className="logo"/></Link>
                 </div>
                 <ul className={"nav-right"}>
-                    <li className={"nav-item-signin"}>
-                        <Link to={'/signup'} className={'link'}>Sign In</Link>
-                    </li>
+                    {localStorage.getItem("authToken") ? (
+                        <> {/* Folosește un Fragment pentru a returna mai multe elemente */}
+                            <li className={"nav-item-profile"}>
+                                <Link to={'/profile'} className={'link'}>My Profile</Link> {/* Poți păstra My Profile */}
+                            </li>
+                            <li className={"nav-item-logout"}> {/* O nouă intrare pentru Logout */}
+                                <button onClick={handleLogout} className={'link logout-button'}>Logout</button>
+                            </li>
+                        </>
+                    ) : (
+                        <li className={"nav-item-signin"}>
+                            <Link to={'/signup'} className={'link'}>Sign Up</Link>
+                        </li>
+                    )}
                 </ul>
+
             </div>
         </header>
     )

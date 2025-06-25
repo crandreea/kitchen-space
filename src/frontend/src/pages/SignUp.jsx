@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import '../styles/SignUp.css';
-import fructe from '../data/fructe.png'
+import fructe from '../data/citrus.webp'
 import {SignUpForm} from "../components/SignUpForm";
 import logo from "../data/logo.png";
 

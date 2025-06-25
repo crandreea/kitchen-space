@@ -82,7 +82,7 @@ ul{
     cursor: pointer;
 }
 
-.nav-item-signin{
+.nav-item-signin .nav-item-profile{
     position: relative;
     text-align: center;
     font-family: Georgia, serif;
@@ -90,13 +90,25 @@ ul{
     cursor: pointer;
 }
 
+.nav-item-logout{
+    
+}
 .nav-item:hover{
     font-weight: bold;
 }
 
+.nav-item-profile:hover{
+    font-weight: 800;
+    color: #758BFD;
+}
 .nav-item-signin:hover{
     font-weight: 800;
     color: #ff864f;
+}
+
+.nav-item-logout:hover{
+    font-weight: 800;
+    color: #ffa600;
 }
 
 .menu-button {
@@ -111,6 +123,23 @@ ul{
 
 .menu-button:hover {
     color: #ff864f;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: inherit; 
+    font-size: 1em;
+    cursor: pointer;
+    padding: 0; 
+    font-family: inherit; 
+    text-decoration: none; 
+    margin-left: 20px;
+}
+
+.logout-button:hover {
+    font-weight: 800;
+    color: #ff6347; /* O culoare diferită la hover, de exemplu */
 }
 
 @media screen and (max-width: 900px) {

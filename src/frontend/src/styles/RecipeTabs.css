@@ -1,0 +1,27 @@
+.recipe-tabs {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 12px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab-button.active {
+    color: #ff6b6b;
+    border-bottom: 3px solid #ff6b6b;
+}
+
+.tab-button:hover:not(.active) {
+    background-color: #f9f9f9;
+}
